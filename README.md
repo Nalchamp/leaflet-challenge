@@ -1,22 +1,36 @@
 # leaflet-challenge
-# Leaflet (Earthquake Map) challenge
-In this project, I was tasked with building an interactive dashboard using Leaflet library to visualize earthquake data provided by the United States Geological Survey (USGS). My job was to create a map that plots all the earthquakes based on their longitude and latitude. The data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Additionally, I had to include popups that provide additional information about the earthquake when its associated marker is clicked. Also, creating a legend that will provide context for the map data is part of the task.
-
-[Link to the dashboard](https://nalchamp.github.io/leaflet-challenge/)
 
 
+## Background
+The United States Geological Survey (USGS) collects a vast amount of earthquake data worldwide every day. The challenge is to develop a meaningful way to visualize this data using Leaflet, providing a tool to educate the public and government organizations about Earth's processes and natural hazards.
 
-# Technical Skills
-- Basic knowledge of JavaScript
-- Familiarity with D3.js and Leaflet libraries
-- Understanding of geoJSON and APIs
+### Before You Begin
+Create a new repository named "leaflet-challenge" for this project.
+Clone the repository to your local machine.
+Inside the local repository, create directories "Leaflet-Part-1" and "Leaflet-Part-2".
+Download the necessary files from Module 15 Challenge files and place them in the respective directories.
+Push your changes to GitHub.
+Instructions
+Part 1: Create the Earthquake Visualization
+Get Your Dataset:
 
-# Project Parameters
-- Use USGS GeoJSON Feed data to visualize earthquakes on a map
-- Represent magnitude of earthquakes by size and depth by color on the data markers
-- Add popups with additional information about earthquakes when markers are clicked
-- Create a legend to provide context for the map data
-- Deploy the final project on a web hosting service like GitHub Pages
+### Visit the USGS GeoJSON Feed page.
+Choose a dataset (e.g., "All Earthquakes from the Past 7 Days").
+Obtain the JSON representation URL for the chosen dataset.
+Import and Visualize the Data:
 
+Use Leaflet to create a map that plots all earthquakes based on their latitude and longitude.
+Size the data markers according to the earthquake magnitude.
+Color the data markers based on the depth of the earthquake.
+Include popups with additional information about each earthquake.
+Create a Legend:
+
+Build a legend to provide context for the map data.
+Legend should display depth ranges with corresponding colors.
+Readme:
+
+Create a README.md file in the repository.
+Include instructions on how to obtain the dataset and run the visualization.
+Provide a brief overview of the project and its purpose.
 
 
