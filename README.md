@@ -10,5 +10,5 @@ The USGS is interested in building a new set of tools that will allow them to vi
 ## Create the Earthquake Visualization
 
 1. Get your Dataset:
-     - Visit the https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php Feed page.
+     - Visit the [USGS GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)  Feed page.
      - 
