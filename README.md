@@ -19,9 +19,18 @@ The USGS is interested in building a new set of tools that will allow them to vi
      - Color the data markers based on the depth of the earthquake
      - Include popups with additional information about each earthquake
  ### 3. Create a Legend
+     - Build a legend to provide context for the map data
+     - Legend should display depth ranges with corresponding colors
+
+## Dependencies
+     - Leaflet
+     - D3.js
+
+The project aims to provide a meaningful visualization of earthquake data.
+
+## Results
+[Link to the dashboard](https://nalchamp.github.io/leaflet-challenge/)
+
+<img width="1710" alt="Screenshot 2024-02-25 at 8 36 42 PM" src="https://github.com/Nalchamp/leaflet-challenge/assets/145158606/ad643047-80e8-4dd5-b26f-d5e6c07b972b">
 
 
-
-
-Color the data markers based on the depth of the earthquake.
-Include popups with additional information about each earthquake.
