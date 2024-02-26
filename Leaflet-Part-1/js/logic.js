@@ -17,7 +17,7 @@ d3.json(url).then(function (data) {
   function mapStyle(feature) {
     return {
       opacity: 1,
-      fill0pacity: 1,
+      fillOpacity: 1,
       fillColor: mapColor(feature.geometry.coordinates[2]),
         color: "black",
         radius: mapRadius (feature.properties.mag),
@@ -69,16 +69,18 @@ d3.json(url).then(function (data) {
   }).addTo(myMap);
 
   //LEgend for the colors on the map relating to depth
-var legend = L.control({position: "bottomright"});
-legend.onAdd=function() {
-  var div = L.DomUtil.create("div", "info legend"),
-  depth = [-10, 10, 30, 50, 70, 90];
-
-  for (var i = 0; i<depth.length; i++) {
-    div.innerHTML +=
-    '<i style="background:' + mapColor(depth[i] + 1) + '"></i> ' + depth[i] + (depth[i + 1] ? '&ndash;' + depth[i + 1] + '<br>' : '+');
-  }
-  return div;
-};
-legend.addTo(myMap) 
-});
+  var legend = L.control({position: "bottomright"});
+  legend.onAdd = function() {
+    var div = L.DomUtil.create("div", "info legend"),
+    depth = [-10, 10, 30, 50, 70, 90];
+  
+    for (var i = 0; i < depth.length; i++) {
+      div.innerHTML +=
+        '<i style="background:' + mapColor(depth[i] + 1) + '"></i> ' + depth[i] + (depth[i + 1] ? '&ndash;' + depth[i + 1] + '<br>' : '+');
+    }
+    
+    
+    return div;
+  };
+  legend.addTo(myMap)
+  });
